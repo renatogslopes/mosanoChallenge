@@ -1,5 +1,5 @@
-$blueColor: #ffffff;
-
+$blueColor: #104E8B;
+$darkBackground: #0000008a; 
 body {
   margin: 0;
   padding: 0;
@@ -14,4 +14,60 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.centerH{
+  text-align: center;
+}
+
+.rightH{
+  float: right;
+}
+
+.mouse{
+  cursor: pointer;
+}
+
+.colorBlueText{
+  color:$blueColor
+}
+
+.colorBlueButton{
+  background-color:$blueColor;
+  color: white;
+}
+
+.colorWhiteButton{
+  background-color:white;
+  color: $blueColor;
+  border: 1px solid $blueColor !important;;
+}
+
+.hideElement{
+  display: none;
+}
+
+.loading{  
+  .effect{
+    position: fixed;
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: $darkBackground;
+    z-index: 9999;
+  }
+  .centerImg{
+    margin-left: auto;
+    margin-right: auto;
+    top: 40%;
+  }
+  .centerMessage{
+    display: block;
+    top: 45%;
+    position: relative;
+    text-align: center;
+    color: white;
+  }
 }

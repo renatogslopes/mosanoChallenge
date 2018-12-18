@@ -1,13 +1,13 @@
 import React from "react";
 
+/* Import Style */
+import '../index.scss';
+
 const Button = props => {
-  console.log(props.style);
   return (
     <button
       style={props.style}
-      className={
-        props.type == "primary" ? "btn btn-primary" : "btn btn-secondary"
-      }
+      className={props.type}
       onClick={props.action}
     >
       {props.title}
