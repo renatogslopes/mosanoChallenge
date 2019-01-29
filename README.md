@@ -5,7 +5,7 @@ This web app was made in ReactJS with the purpose to save and list users. Mosano
 ### Some implementation details
 To build this app was used one react library, bootstrap and [countries API](https://restcountries.eu/rest/v2/all) to list all countries in select row.
 * [Bootstrap](https://react-bootstrap.github.io/getting-started/introduction/);
-* [react-localization](https://www.npmjs.com/package/react-localization);
+* [react-localization](https://www.npmjs.com/package/react-localization);<br />
 All the users data will be persist on browser storage. 
 
 ### Installation & Development
